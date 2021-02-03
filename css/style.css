@@ -74,11 +74,11 @@ h2 {
 }
 .service__name {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 1.5em;
 }
 .service__type {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 1.4em;
   color: #0964ff;
 }
 .service__description {
@@ -94,7 +94,7 @@ h2 {
   border: 2px solid #0964ff;
   padding: 0 35px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 1.1em;
   text-transform: capitalize;  
 }
 .service__button {  
@@ -170,7 +170,7 @@ h2 {
 }
 .project__name {
 	color: #fff;
-	font-size: 26px;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 #projects .project__description {
@@ -257,13 +257,7 @@ h2 {
   .service__icon {
     display: none;
   }
-  
-  .button-more {
-    line-height: 40px;
-    height: 46px;
-    border-radius: 23px;
-    border: 2px solid #0964ff;
-    padding: 0 30px;
-    font-size: 18px;
+  html, body {
+    font-size: 22px;
   }
 }
