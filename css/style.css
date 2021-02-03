@@ -235,7 +235,16 @@ h2 {
     margin-left: 0;
     padding: 40px;  
     width: 100%;
-  }  
+  }
+  .owl-nav {
+	top: 30vw;
+	left: 0;
+	right: 0;
+	height: 0;
+  }
+  .owl-nav  button span {
+	background-color: rgba(255,255,255,0.4);
+  }
 }
 @media (max-width: 479px) {
   .services {
