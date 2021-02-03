@@ -86,7 +86,7 @@ h2 {
   margin: 10px 0 26px;
   line-height: 25px;
 }
-.button-more {
+.button--more {
   display: inline-block;
   box-sizing: border-box;
   line-height: 2.6em;  
@@ -211,7 +211,7 @@ h2 {
   body {
     font-size: 24px;
   }
-  .button-more {
+  .button--more {
     font-size: 1.4rem;
   }
   .services {
