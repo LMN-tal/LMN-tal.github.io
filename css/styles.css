@@ -126,9 +126,11 @@ h2 {
 }
 #projects p {
   text-align: center;
+  margin: 10px 15% 40px;
 }
-#projects .card-body p {
+#projects .project__info p {
   text-align: left;
+  margin: 0;
 }
 .project {
   background-color: transparent;
@@ -233,6 +235,10 @@ h2 {
   .service__icon img {
     width: 80%;
     height: 80%;
+  }
+  #projects p {
+    text-align: center;
+    margin: 30px 0;
   }
   .project__image img {
     height: 60vw;
