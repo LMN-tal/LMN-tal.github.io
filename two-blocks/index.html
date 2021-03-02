@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Leading Edge Painting</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="services">
+        <div class="content-wrapper">
+          <h2>Our Services</h2>
+          <div class="services">
+            <div class="service">
+              <div class="service__icon"><img src="images/bulding.svg" alt="building icon" /></div>
+              <div class="service__name">Commercial</div>
+              <div class="service__type">Service</div>
+              <div class="service__description">
+                Our team of painters in Sydney provide exterior and interior painting services for every commercial
+                site. Whether it is a cozy restaurant or a lavish shopping centre, we can do it
+              </div>
+              <a class="button button--more service__button" href="#">Read more</a>
+            </div>
+            <div class="service">
+              <div class="service__icon"><img src="images/apartment.svg" alt="apartment icon" /></div>
+              <div class="service__name">Residential</div>
+              <div class="service__type">Residential</div>
+              <div class="service__description">
+                Our house painting services cover new homes as well as renovations, timber homes as well as heritage
+                buildings, and much more. We also provide roof restoration services for residential properties.
+              </div>
+              <a class="button button--more service__button" href="#">Read more</a>
+            </div>
+            <div class="service">
+              <div class="service__icon"><img src="images/painting-roller.svg" alt="painting roller icon" /></div>
+              <div class="service__name">Strata</div>
+              <div class="service__type">Strata</div>
+              <div class="service__description">
+                Our high-access specialists can handle projects of any size and complexity. Our end-to-end strata
+                painting and maintenance services keep buildings young for extended periods.
+              </div>
+              <a class="button button--more service__button" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="content-wrapper">
+          <h2>Our Projects</h2>
+          <p>
+            We are the go-to painting company when you are in need of reliable painters in Sydney. We never say no to a
+            project, no matter how small or challenging it may be. Our painters in Sydney specialize in a full range of
+            residential and commercial painting services and have the tools and skills to complete any interior or
+            exterior work you need to get done on your home or in your office.<br />
+            We have a rich portfolio of satisfied clients, but we still ask you to take a few minutes of your time to
+            check out some of the previous projects we worked on.
+          </p>
+        </div>
+
+        <div class="loop owl-carousel">
+          <div class="item">
+            <div class="project">
+              <div class="project__image">
+                <img src="images/1.jpg" alt="Photo of the project 1"/>
+              </div>
+              <div class="project__info">
+                <h3 class="project__name">Residential Project</h3>
+                <p class="project__description">
+                  We want to make painting your home as easy for you as possible. We work on consecutive business days
+                  so we limit the days we are on your job site. Also, we will cover and mask everything to ensure paint
+                  stays on the walls and not on your furniture.
+                </p>
+                <a href="#" class="button button--more project__button">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="project">
+              <div class="project__image">
+                <img src="images/2.jpg" alt="Photo of the project 2"/>
+              </div>
+              <div class="project__info">
+                <h3 class="project__name">Residential Project</h3>
+                <p class="project__description">
+                  We want to make painting your home as easy for you as possible. We work on consecutive business days
+                  so we limit the days we are on your job site. Also, we will cover and mask everything to ensure paint
+                  stays on the walls and not on your furniture.
+                </p>
+                <a href="#" class="button button--more project__button">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="project">
+              <div class="project__image">
+                <img src="images/3.jpg" alt="Photo of the project 3"/>
+              </div>
+              <div class="project__info">
+                <h3 class="project__name">Residential Project</h3>
+                <p class="project__description">
+                  We want to make painting your home as easy for you as possible. We work on consecutive business days
+                  so we limit the days we are on your job site. Also, we will cover and mask everything to ensure paint
+                  stays on the walls and not on your furniture.
+                </p>
+                <a href="#" class="button button--more project__button">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <h4>4</h4>
+          </div>
+          <div class="item">
+            <h4>5</h4>
+          </div>
+          <div class="item">
+            <h4>6</h4>
+          </div>
+          <div class="item">
+            <h4>7</h4>
+          </div>
+          <div class="item">
+            <h4>8</h4>
+          </div>
+          <div class="item">
+            <h4>9</h4>
+          </div>
+          <div class="item">
+            <h4>10</h4>
+          </div>
+          <div class="item">
+            <h4>11</h4>
+          </div>
+          <div class="item">
+            <h4>12</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Initialize slider -->
+    <script>
+      jQuery(document).ready(function ($) {
+        $('.loop').owlCarousel({
+          center: true,
+          items: 2,
+          loop: true,
+          margin: 160,
+          nav: true,
+          pagination: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            1024: {
+              items: 2,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
