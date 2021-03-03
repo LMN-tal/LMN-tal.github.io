@@ -151,7 +151,21 @@
                 <dd class="project__feature-value">81 м<sup>2</sup></dd>
               </dl>
             </div>
-            <div class="project__photos">  </div>
+            <div class="project__gallery">       
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="project__photo" src="img/project-1.jpg" alt="photo 1"></div>
+                  <div class="swiper-slide"><img class="project__photo" src="img/project-2.jpg" alt="photo 2"></div>
+                  <div class="swiper-slide"><img class="project__photo" src="img/project-3.jpg" alt="photo 3"></div>
+                  <div class="swiper-slide"><img class="project__photo" src="img/project-4.jpg" alt="photo 4"></div>
+                </div>
+                <!-- Add Pagination-->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows-->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -159,17 +173,57 @@
         <div class="reviews">
           <div class="container container--narrow review">
             <h2 class="section__name section__name--center">Відгуки</h2>
-            <h3 class="section__header section__header--center">Що про нас говорять наші клієнти    </h3>
-            <p class="review__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut eros at nunc venenatis varius ac ut nisl.
-              Cras vulputate efficitur ligula, ac bibendum est placerat vel.
-              Integer sit amet lectus non enim maximus varius sed non arcu.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla ut eros at nunc venenatis varius ac ut nisl.
-              Cras vulputate efficitur ligula, ac bibendum est placerat vel.
-              Integer sit amet lectus non enim maximus varius sed non arcu.
-            </p>
-            <p class="review__author">Елена Филонова, Львів</p>
+            <h3 class="section__header section__header--center">Що про нас говорять наші клієнти</h3>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="review__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut eros at nunc venenatis varius ac ut nisl.
+                    Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla ut eros at nunc venenatis varius ac ut nisl.
+                    Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.
+                  </p>
+                  <p class="review__author">Елена Филонова, Львів          </p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="review__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut eros at nunc venenatis varius ac ut nisl.
+                    Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.            
+                  </p>
+                  <p class="review__author">Микола Коваленко, Львів</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="review__text">
+                    Nulla ut eros at nunc venenatis varius ac ut nisl.Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla ut eros at nunc venenatis varius ac ut nisl.
+                    Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.
+                  </p>
+                  <p class="review__author">Іван Іванчук, Стрий</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="review__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut eros at nunc venenatis varius ac ut nisl.
+                    Cras vulputate efficitur ligula, ac bibendum est placerat vel.
+                    Integer sit amet lectus non enim maximus varius sed non arcu.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla ut eros at nunc venenatis varius ac ut nisl.
+                  </p>
+                  <p class="review__author">Петро Петренко, Рівне</p>
+                </div>
+              </div>
+              <!-- Add Pagination-->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows-->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -223,6 +277,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript"></script>
     <new>WOW().init();</new>
